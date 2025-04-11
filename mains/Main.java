@@ -15,13 +15,12 @@ import utp.shapes.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Membuat class untuk warna konsol
-        final String RESET = "\033[0m";  // Reset warna
-        final String RED = "\033[31m";    // Merah
-        final String GREEN = "\033[32m";  // Hijau
-        final String BLUE = "\033[34m";   // Biru
-        final String CYAN = "\033[36m";   // Cyan
-        final String YELLOW = "\033[33m"; // Kuning
+        final String RESET = "\033[0m";  
+        final String RED = "\033[31m";    
+        final String GREEN = "\033[32m";  
+        final String BLUE = "\033[34m";   
+        final String CYAN = "\033[36m";   
+        final String YELLOW = "\033[33m"; 
         
         Scanner scanner = new Scanner(System.in);
         
@@ -31,7 +30,6 @@ public class Main {
         System.out.println(YELLOW + "245150707111031" + RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         
-        // Prisma Segitiga Sama Kaki
         System.out.println(BLUE + "Prisma Segitiga Sama Kaki" + RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         System.out.print("Isikan alas : ");
@@ -48,7 +46,6 @@ public class Main {
         System.out.print(RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         
-        // Limas Persegi
         System.out.println(BLUE + "Limas Persegi" + RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         System.out.print("Isikan sisi : ");
@@ -63,7 +60,6 @@ public class Main {
         System.out.print(RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         
-        // Tabung
         System.out.println(BLUE + "Tabung" + RESET);
         System.out.println(CYAN + "=============================================" + RESET);
         System.out.print("Isikan radius : ");
